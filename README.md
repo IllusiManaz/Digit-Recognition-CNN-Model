@@ -16,15 +16,6 @@ Before you begin, ensure that you have the following software installed:
 1. Python (3.x)
 2. TensorFlow (>=2.0)
 3. Matplotlib
-4. NumPy
-5. PIL or Pillow (for image manipulation)
-
-You can install the necessary dependencies using pip by running:
-
-pip install -r requirements.txt
-Or you can manually install the dependencies:
-
-pip install tensorflow matplotlib numpy pillow
 
 # Dataset
 The model uses the MNIST dataset, which contains 60,000 28x28 grayscale images of handwritten digits (0-9) for training and 10,000 images for testing. This dataset is readily available through TensorFlow.
