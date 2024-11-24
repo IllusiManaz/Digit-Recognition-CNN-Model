@@ -64,12 +64,14 @@ Example Image Prediction
 The predict.py script will load an image from a URL (e.g., a digit or a number) and make a prediction. Here's an example of how to make a prediction:
 
 --> image=urlopen("https://www.shutterstock.com/image-photo/single-number-fire-flames-alphabet-260nw-2099710750.jpg")
+
 You can replace the image URL with any valid image link that contains a handwritten digit or a number.
 
 # Model Evaluation
 Once the model is trained, you can evaluate its performance on the test dataset by running the following:
 
 --> python evaluate.py
+
 This will display the accuracy and loss of the model on the test data, helping you understand how well it generalizes to unseen examples.
 
 # Model Architecture
