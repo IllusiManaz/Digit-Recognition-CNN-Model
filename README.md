@@ -37,7 +37,7 @@ The model uses the MNIST dataset, which contains 60,000 28x28 grayscale images o
 5. requirements.txt: List of dependencies required to run the project.
 
 # Steps to Run the Project
-Step 1: Train the Model
+**Step 1:** Train the Model
 Run the train.py script to train the CNN model on the MNIST dataset.
 
 --> python train.py
@@ -50,14 +50,14 @@ This script will:
 4. Train the model using the training data and validate it using the test data.
 5. Save the trained model to the file lenet5.h5.
 
-Step 2: Make Predictions with the Trained Model
+**Step 2:** Make Predictions with the Trained Model
 Once the model is trained, you can use the predict.py script to make predictions on new images.
 
 -->python predict.py
 
 In this script, an external image (such as a number from the web) is loaded, preprocessed (cropped and resized to 28x28 pixels), and passed through the trained model to predict the digit. The result is then printed out.
 
-Step 3: Use the Pre-trained Model
+**Step 3:** Use the Pre-trained Model
 If you just want to test the pre-trained model without training it yourself, you can download the lenet5.h5 file and run the predict.py script directly.
 
 1. Download the pre-trained model: lenet5.h5
