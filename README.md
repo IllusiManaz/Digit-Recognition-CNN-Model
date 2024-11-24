@@ -41,6 +41,7 @@ Step 1: Train the Model
 Run the train.py script to train the CNN model on the MNIST dataset.
 
 --> python train.py
+
 This script will:
 
 1. Load the MNIST dataset.
@@ -53,6 +54,7 @@ Step 2: Make Predictions with the Trained Model
 Once the model is trained, you can use the predict.py script to make predictions on new images.
 
 -->python predict.py
+
 In this script, an external image (such as a number from the web) is loaded, preprocessed (cropped and resized to 28x28 pixels), and passed through the trained model to predict the digit. The result is then printed out.
 
 Step 3: Use the Pre-trained Model
