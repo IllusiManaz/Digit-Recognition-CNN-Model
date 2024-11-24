@@ -97,3 +97,14 @@ The model achieves a validation accuracy of around 99.5% on the MNIST dataset af
 2. Hyperparameter Tuning: Experiment with different hyperparameters (e.g., learning rate, batch size, number of filters).
 3. Deeper Model: Try using a deeper CNN model for potentially higher accuracy.
 4. Real-time Digit Recognition: Extend this project to recognize digits from a live camera feed.
+
+# Application:
+1. **Healthcare and Medical Imaging:**
+
+Use: Recognizing and extracting handwritten numbers in medical records, prescriptions, or diagnostic forms.
+Example: Recognizing prescription dosages or patient ID numbers from handwritten notes in medical records.
+
+2. **Captcha Solving and Anti-Bot Systems:**
+
+Use: Digit recognition is used to solve CAPTCHA challenges that require recognizing and typing digits from distorted images, helping to distinguish humans from bots.
+Example: Online login forms, registration processes, and financial transactions may use CAPTCHA with digit recognition.
